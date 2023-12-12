@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_node_todo_cicd_1699522317873-push-trigger-input-set
+  identifier: Build_node_todo_cicd_1699522317873pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Project_demo
+  pipeline:
+    identifier: Build_node_todo_cicd_1699522317873
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>

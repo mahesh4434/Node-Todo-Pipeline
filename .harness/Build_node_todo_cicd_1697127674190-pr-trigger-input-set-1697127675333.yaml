@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_node_todo_cicd_1697127674190-pr-trigger-input-set
+  identifier: Build_node_todo_cicd_1697127674190prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: NodeApp
+  pipeline:
+    identifier: Build_node_todo_cicd_1697127674190
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>

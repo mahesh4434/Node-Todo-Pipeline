@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_node_todo_cicd_1697127674190-push-trigger-input-set
+  identifier: Build_node_todo_cicd_1697127674190pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: NodeApp
+  pipeline:
+    identifier: Build_node_todo_cicd_1697127674190
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>

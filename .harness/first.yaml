@@ -1,0 +1,11 @@
+inputSet:
+  pipeline:
+    identifier: Build_node_todo_cicd_1699522317873
+    properties:
+      ci:
+        codebase:
+          build: ""
+  name: first
+  identifier: first
+  orgIdentifier: default
+  projectIdentifier: Project_demo
